@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="@string/settings_title"
+        android:defaultValue="@string/weeks_value"
+        android:key="@string/weeks_key"
+        android:id="@+id/weeks_setting"
+        android:selectAllOnFocus="true"
+        android:inputType="numberDecimal"/>
+
+</PreferenceScreen>
